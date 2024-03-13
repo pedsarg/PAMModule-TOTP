@@ -1,6 +1,6 @@
 
  
-# PAM module - TOTP in Arch Linux
+# PAM Module - TOTP in Arch Linux
 
 
 ## Description
