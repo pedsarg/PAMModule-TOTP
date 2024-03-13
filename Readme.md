@@ -14,7 +14,7 @@ It is important to note that the Google Authenticator library is not used on Lin
 
 ## Explanation of Codes
 
-### createUser: User creation and random key generation
+### createUser.c: User creation and random key generation
 
 The createUser function is responsible for creating a user on Linux with a username and password. It also generates a 16-character random key using the following code snippet:
 
