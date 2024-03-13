@@ -46,9 +46,9 @@ The authenticator.c code is responsible for authentication. To do this, it queri
 Returning to code 2, it accesses and then deletes the temporary file for security reasons and to prevent memory leaks, extracting the TOTP key from the file.
 
 After the previous process, the user is prompted to enter the TOTP key after the 'password' field during login. The TOTP key can be obtained from Google Authenticator or from the website: "https://totp.danhersam.com/". After entering the key, the code compares it and either authorizes or denies access.
-![alt text](AuthorizedAccess.jpg)
+![authorizesAccess](Images/authorizedAccess.jpg)
 
-![alt text](AccessDenied.jpg)
+![accessDenied](Images/accessDenied.jpg)
 
 ## Installation and configuration
 To implement this project, follow these steps:
@@ -89,7 +89,7 @@ Before proceeding, it is strongly recommended to back up your data, as any mista
 
 * Append to the end of the file:
  “auth 	required 	authenticator.so”  
-![etc/pam.d/login](pam.dLogin.jpg)
+![etc/pam.d/login](Images/pam.dLogin.jpg)
 Remember to save the file!
 
 * reboot
